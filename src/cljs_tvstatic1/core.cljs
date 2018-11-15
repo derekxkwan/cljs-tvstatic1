@@ -14,13 +14,18 @@
 ;(def cur-dim {:w 1024 :h 768})
 (def scaling 8)
 (def frate 24)
-(def max-fade-depth 150)
+;(def max-fade-depth 150)
+(def max-fade-depth 250)
 (def fade-chance 0.01)
+;(def fade-chance 0.5)
 (def text-chance 0.5)
 (def min-fade-ms 5000)
+;(def min-fade-ms 1000)
+;(def range-fade-ms 1000)
 (def range-fade-ms 10000)
 (def paths ["res/breakfast-at-tiffanys-mickey-rooney-2.jpg", "res/breakfast-at-tiffanys-mickey-rooney-3.jpg",
-      "res/Long_Duk_Dong.jpg", "res/Starring_Mickey_Rooney.jpg", "res/usp_entertainment__88th_academy_awards_80081100.jpg"])
+      "res/Long_Duk_Dong.jpg", "res/Starring_Mickey_Rooney.jpg", "res/usp_entertainment__88th_academy_awards_80081100.jpg"
+            "res/kungfu.jpeg" "res/charliechan.jpg" "fumanchu.jpeg" "ming-merciless.jpg"])
 (def num-photos (count paths))
 
 (defn setup []
